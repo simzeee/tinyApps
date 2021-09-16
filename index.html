@@ -5,27 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="index.css" />
-    <script src="index.js"></script>
+    <script src="index.js" defer></script>
     <title>tinyApps</title>
   </head>
   <body>
-    <nav class="navBar">
-      <div>app</div>
-      <div>blog</div>
-      <div>shop</div>
-      <div>note</div>
-      <div>game</div>
-    </nav>
+    <div class="container"></div>
+    <header>
+      <nav class="navBar">
+        <a href="">app</a>
+        <a href="">blog</a>
+        <a href="">shop</a>
+        <a href="">note</a>
+        <a href="">game</a>
+      </nav>
+    </header>
+    <aside class="left">
+      <button id="left-button"><</button>
+    </aside>
+    <main>
+      <span>tiny <span id="app" class="app-name"></span> </span>
+      <!-- <span>coming soon</span> -->
+    </main>
+    <aside class="right">
+      <button id="right-button">></button>
+    </aside>
+    <footer>
 
-    <div class="carouselWrapper">
-      <div class="carousel">
-        <div class="tinyImage initial">tinyBlog</div>
-        <div class="tinyImage">tinyShop</div>
-        <div class="tinyImage">tinyNotes</div>
-        <div class="tinyImage">tinyGame</div>
-        <div class="nextButton"></div>
-        <div class="prevButton"></div>
-      </div>
-    </div>
+    </footer>
+
   </body>
 </html>
