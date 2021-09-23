@@ -4,6 +4,7 @@ let apps = [
   'shop',
   'note',
   'game',
+  'art',
   'grave'
 ];
 
